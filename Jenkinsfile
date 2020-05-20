@@ -1,4 +1,5 @@
 currentBuild.display = "JD-Networks-#"+currentBuild.number
+
 pipeline{
     agent any
     environment{
