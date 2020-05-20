@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('build docker image'){
             steps{
-                sh "docker build . -t jddivak/demo-app:$(DOCKER_TAG)"
+                sh "docker build . -t jddivak/demo-app:${DOCKER_TAG}"
             }
         }
     }
