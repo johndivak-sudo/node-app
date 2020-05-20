@@ -1,4 +1,4 @@
-currentBuild.display = "JD-Networks-#"+currentBuild.number
+currentBuild.displayName = "JD-Networks-#"+currentBuild.number
 
 pipeline{
     agent any
